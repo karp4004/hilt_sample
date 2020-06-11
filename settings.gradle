@@ -1,3 +1,5 @@
+include ':core'
+include ':auth'
 include ':dashboard'
 rootProject.name='HiltStub'
 include ':HiltApp'
