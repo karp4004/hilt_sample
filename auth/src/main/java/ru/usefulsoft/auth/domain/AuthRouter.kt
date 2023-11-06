@@ -3,8 +3,8 @@ package ru.usefulsoft.auth.domain
 import android.content.Context
 import android.content.Intent
 import dagger.hilt.android.qualifiers.ActivityContext
+import ru.usefulsoft.auth.presentation.AuthActivity
 import ru.usefulsoft.core.domain.BaseScreenRouter
-import ru.usefulsoft.dashboard.presentation.AuthActivity
 
 class AuthRouter(
     @ActivityContext private val context: Context

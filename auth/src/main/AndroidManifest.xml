@@ -1,8 +1,9 @@
-<manifest package="ru.usefulsoft.auth"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application>
-        <activity android:name="ru.usefulsoft.dashboard.presentation.AuthActivity">
+        <activity
+            android:name="ru.usefulsoft.auth.presentation.AuthActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
