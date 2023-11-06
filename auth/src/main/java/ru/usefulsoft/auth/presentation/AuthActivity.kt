@@ -2,10 +2,10 @@ package ru.usefulsoft.auth.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.authapi.di.IAuthInteractor
 import dagger.hilt.android.AndroidEntryPoint
 import ru.usefulsoft.core.di.DashboardQualifier
 import ru.usefulsoft.core.domain.ScreenRouter
-import ru.usefulsoft.dashboard.domain.AuthInteractor
 import ru.usefulsoft.hiltstub.databinding.ActivityAuthBinding
 import javax.inject.Inject
 
@@ -13,7 +13,7 @@ import javax.inject.Inject
 class AuthActivity : AppCompatActivity() {
 
     @Inject
-    lateinit var authInteractor: AuthInteractor
+    lateinit var authInteractor: IAuthInteractor
 
     @DashboardQualifier
     @Inject

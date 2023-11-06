@@ -59,6 +59,7 @@ dependencies {
     kapt "androidx.hilt:hilt-compiler:1.0.0"
 
     implementation project(':core')
+    implementation project(':authapi')
 
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

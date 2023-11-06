@@ -1,6 +1,8 @@
-package ru.usefulsoft.dashboard.domain
+package ru.usefulsoft.auth.domain
 
-class AuthInteractor {
-    fun someRequest() {
+import com.example.authapi.di.IAuthInteractor
+
+class AuthInteractor : IAuthInteractor {
+    override fun someRequest() {
     }
 }
